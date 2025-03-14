@@ -1,16 +1,24 @@
 {
-	"name": "SnowflakeTable1",
+	"name": "SnowflakeTable4",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake2",
+			"type": "LinkedServiceReference"
+		},
 		"annotations": [],
-		"type": "SnowflakeV2Table",
+		"type": "SnowflakeTable",
 		"schema": [
 			{
 				"name": "NCONST",
-				"type": "VARCHAR"
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
 			},
 			{
 				"name": "PRIMARYNAME",
-				"type": "VARCHAR"
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
 			},
 			{
 				"name": "BIRTHYEAR",
@@ -26,11 +34,15 @@
 			},
 			{
 				"name": "PRIMARYPROFESSION",
-				"type": "VARCHAR"
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
 			},
 			{
 				"name": "KNOWNFORTITLES",
-				"type": "VARCHAR"
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
 			},
 			{
 				"name": "NAMEBASICSK",

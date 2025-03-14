@@ -1,5 +1,5 @@
 {
-	"name": "SnowflakeTable1",
+	"name": "SnowflakeTable3",
 	"properties": {
 		"annotations": [],
 		"type": "SnowflakeV2Table",
